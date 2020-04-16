@@ -26,7 +26,7 @@ def output_array array
   counter = 0
   array_n = []
   while counter < array.length do
-    array_n.push(array[counter].to_s)
+    array_n << (array[counter].to_s)
     counter += 1
   end
   array_n
