@@ -22,7 +22,7 @@ def output_array array
   end
 end
 
-def output_array array
+def return_string_array array
   counter = 0
   array_n = []
   while counter < array.length do
