@@ -13,10 +13,6 @@ def loop_message_n_times message, n
   n.times {puts message}
 end
 
-def output_array message, array
-  counter = 0
-
-  while counter < array.length do
-    puts message
-  end
+def output_array array
+  puts array.length
 end
