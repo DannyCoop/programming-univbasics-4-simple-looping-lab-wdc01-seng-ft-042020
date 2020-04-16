@@ -17,5 +17,6 @@ def output_array array, message
   counter = 0
   while counter < array.length do
     puts message
+    
   end
 end
